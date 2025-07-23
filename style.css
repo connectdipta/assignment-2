@@ -1,0 +1,111 @@
+*{
+    /* font-family: "Inter", sans-serif; */
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+}
+h1{
+    font-family: Noto Serif;
+    font-size: 65px;
+    font-weight: 700;
+}
+.title-color{
+    color: rgb(233, 90, 8);
+}
+/* SHARED STYLE */
+/* .btn{
+    border: none;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    width: 196px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+} */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+} 
+
+/* NAV BAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 143px;
+    height: 71px;
+}
+.logo{
+    width: 135px;
+    height: 82px;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.nav-text1{
+    font-family: Inter;
+    color: rgb(37, 36, 50);
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-text2{
+    font-family: Inter;
+    color: rgb(137, 135, 161);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    height: 461px;
+}
+.hero-text{
+    width: 570px;
+    height: 299px;
+}
+.hero-text h1{
+    margin-bottom: 10px;
+}
+.hero-text p{
+    margin-top: 0;
+}
+.hero-img{
+    width: 570px;
+    height: 355px;
+}
+
+/* ABOUT */
+.about{
+    text-align: center;
+}
+.about h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.about p{
+    margin: 0 126px;
+}
+
+
+
