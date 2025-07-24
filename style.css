@@ -180,17 +180,96 @@ nav li{
     margin: 0 276px;
 }
 
+/* DEALS */
+.all-deals{
+    display: flex;
+    gap: 28.78px;
+}
+.deals-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.deal-card1 {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assets/deal-bloom.png");
+  background-size: cover;
+  background-position: center;
+  width: 366.22px;
+  height: 206px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.deal-card2 {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assets/deal-ana.png");
+  background-size: cover;
+  background-position: center;
+  width: 366.22px;
+  height: 206px;
+  border-radius: 12px;
+  position: relative;
+}
+.deals-right {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assets/deal-zabo.png");
+  background-size: cover;
+  background-position: center;
+  width: 753px;
+  height: 423.13px;
+  border-radius: 12px;
+  position: relative;
+}
+.deal-text h3 {
+    font-family: Noto Serif;
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: 700;
+    margin-bottom: 5px; 
+    padding-bottom: 10px;
+}
+.deal-text a {
+    font-family: Inter;
+    color: rgb(255, 255, 255); 
+    text-decoration: underline; 
+    font-size: 16px;
+    font-weight: 600;
+}
+.deal-text{
+    position: absolute;
+    text-align: center;
+}
+.position1{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.position2{
+    padding-left: 150px;
+    padding-top: 120px;
+}
+.position2 h3{
+    font-size: 40px;
+}
+.position2 a{
+    font-size: 29px;
+}
+
 /* JOIN */
 .join{
     background-image: url("./assets/news-letter-bg.png");
+    background-size: cover;
+    background-position: center;
     height: 533px;
-
-
+    width: 100%;
 }
 .email{
     text-align: center;
     align-items: center;
-    padding-top: 180px;
+    padding-top: 160px;
 }
 .email h1{
     color: rgb(255, 255, 255);
@@ -209,3 +288,38 @@ nav li{
    right: 260px;
 }
 
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    width: 1120px;
+    height: 248px;
+    justify-content: center;
+    margin: 80px 160px;
+    gap: 110px;
+}
+.first{
+    width: 359px;
+}
+.second-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+footer li a{
+    color: rgb(107, 114, 128);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.fourth img{
+    width: 36px;
+}
