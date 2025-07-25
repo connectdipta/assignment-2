@@ -379,8 +379,10 @@ footer li a{
         margin-top: 28px;
         flex-direction: column-reverse;
     }
+    .hero-img{
+         width: 393.18px;
+    }
     .h-img{
-        /* width: 393.18px; */
         height: 245px;
     }
     .hero-text{
